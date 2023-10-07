@@ -1,0 +1,6 @@
+Naslov "verx_normal_full_yz" pomeni:
+- verx je verzija ROC-ja, ki jo testiramo
+- normal / slim (normal z končno maso m, slim brez mase m)
+- full / half (celotni - mogoča le pol deformacije, half, le pol pomika a celotna deformacija)
+- y: vzorec
+- z: ponovitv na istem vzorcu

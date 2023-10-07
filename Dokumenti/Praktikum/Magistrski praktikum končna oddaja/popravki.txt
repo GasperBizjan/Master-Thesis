@@ -1,0 +1,9 @@
+- viri bolj natančno 
+- str. 3 (modul mase?, slika 2.1, ni ok, če so kratki stavki za sliko, [Hbt!], slika ne deli odstavka, floating object za odstavki)
+- enačbe imajo dvopičje: in nato piko. vmes vejice. 
+- eqref latex
+- slika str. 21
+- slika 7.2  ozčiti k-je
+- str. 39 barvn skala
+
+predlog teme:na VIS-u, oblika od Tilna v njegovi diplomi

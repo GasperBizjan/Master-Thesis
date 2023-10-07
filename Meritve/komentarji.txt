@@ -1,0 +1,2 @@
+ver5:
+- print test: faktorji: temperatura, hitrost, extrusion multiplier, perimeter cross over. 

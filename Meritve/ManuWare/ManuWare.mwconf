@@ -1,0 +1,536 @@
+<system>
+ <application>
+  <name>ManuWare</name>
+  <software_version>1.0.4.4</software_version>
+ </application>
+ <date>
+  <creation>2023-01-10 12:33:05</creation>
+  <last_modification>2023-07-14 18:35:49</last_modification>
+ </date>
+ <system_init>
+  <project_file>./Project1.mwproj</project_file>
+  <project_file_existing>1</project_file_existing>
+  <autoload>1</autoload>
+  <recent_projects>
+   <max_num>4</max_num>
+   <project_file>./Project1.mwproj</project_file>
+  </recent_projects>
+  <locale_code>eng</locale_code>
+  <possible_language>
+   <language code="deu">Deutsch</language>
+   <language code="eng">English</language>
+  </possible_language>
+  <working_directory>C:/Users/Bizjan/Desktop/Fakulteta/2. STOPNJA/Magisterska Naloga/Meritve/ManuWare</working_directory>
+  <helppath>./doc</helppath>
+  <homepage>http://www.kistler.com</homepage>
+ </system_init>
+ <system_dialog>
+  <size>
+   <width>1048</width>
+   <height>991</height>
+   <maximized>1</maximized>
+  </size>
+  <position>
+   <x>871</x>
+   <y>38</y>
+  </position>
+  <message_dialog>
+   <message_level>2</message_level>
+   <message_overwrite>0</message_overwrite>
+  </message_dialog>
+  <logging>
+   <logging_level>2</logging_level>
+   <logging_overwrite>0</logging_overwrite>
+   <logging_enabled>0</logging_enabled>
+   <logfile></logfile>
+  </logging>
+  <behaviour>
+   <timeout>1.00</timeout>
+   <device_status_salience>1</device_status_salience>
+  </behaviour>
+  <splitter_sizes>
+   <horizontal_left>444</horizontal_left>
+   <horizontal_right>1434</horizontal_right>
+   <vertical_left>402</vertical_left>
+   <vertical_right>496</vertical_right>
+  </splitter_sizes>
+  <toolbars>
+   <toolbar area="2"></toolbar>
+  </toolbars>
+ </system_dialog>
+ <user_administration>
+  <users>
+   <user superuser="1" standarduser="1" locked="1">
+    <username>Supervisor</username>
+    <password></password>
+    <roles/>
+   </user>
+   <user locked="1">
+    <username>Operator</username>
+    <password></password>
+    <roles>
+     <role>1</role>
+     <role>5</role>
+     <role>6</role>
+    </roles>
+   </user>
+  </users>
+ </user_administration>
+ <possible_devices>
+  <force_type>1</force_type>
+  <device type="5073A1 (+/-10 V)">
+   <order>0</order>
+   <cutoff_frequency>200</cutoff_frequency>
+   <possible_channels>
+    <channel id="1">
+     <offset min="-1000" max="1000">0</offset>
+     <sensitivity min="0.01" max="10000">-1</sensitivity>
+     <scaling_type>1</scaling_type>
+     <unit>8</unit>
+     <peak>0</peak>
+     <possible_ranges>
+      <range id="1">
+       <range min="0.01" max="100000000">1e+6</range>
+       <full_scale min="99.8" max="1000000"/>
+      </range>
+      <range id="2">
+       <range min="0.01" max="100000000">1e+6</range>
+       <full_scale min="99.8" max="1000000"/>
+      </range>
+     </possible_ranges>
+    </channel>
+   </possible_channels>
+  </device>
+  <device type="5073A2 (+/-10 V)">
+   <order>0</order>
+   <cutoff_frequency>200</cutoff_frequency>
+   <possible_channels>
+    <channel id="1">
+     <offset min="-1000" max="1000">0</offset>
+     <sensitivity min="0.01" max="10000">-1</sensitivity>
+     <scaling_type>1</scaling_type>
+     <unit>8</unit>
+     <peak>0</peak>
+     <possible_ranges>
+      <range id="1">
+       <range min="0.01" max="100000000">1e+6</range>
+       <full_scale min="99.8" max="1000000"/>
+      </range>
+      <range id="2">
+       <range min="0.01" max="100000000">1e+6</range>
+       <full_scale min="99.8" max="1000000"/>
+      </range>
+     </possible_ranges>
+    </channel>
+    <channel id="2">
+     <offset min="-1000" max="1000">0</offset>
+     <sensitivity min="0.01" max="10000">-1</sensitivity>
+     <scaling_type>1</scaling_type>
+     <unit>8</unit>
+     <peak>0</peak>
+     <possible_ranges>
+      <range id="1">
+       <range min="0.01" max="100000000">1e+6</range>
+       <full_scale min="99.8" max="1000000"/>
+      </range>
+      <range id="2">
+       <range min="0.01" max="100000000">1e+6</range>
+       <full_scale min="99.8" max="1000000"/>
+      </range>
+     </possible_ranges>
+    </channel>
+   </possible_channels>
+  </device>
+  <device type="5073A3 (+/-10 V)">
+   <order>0</order>
+   <cutoff_frequency>200</cutoff_frequency>
+   <possible_channels>
+    <channel id="1">
+     <offset min="-1000" max="1000">0</offset>
+     <sensitivity min="0.01" max="10000">-1</sensitivity>
+     <scaling_type>1</scaling_type>
+     <unit>8</unit>
+     <peak>0</peak>
+     <possible_ranges>
+      <range id="1">
+       <range min="0.01" max="100000000">1e+6</range>
+       <full_scale min="99.8" max="1000000"/>
+      </range>
+      <range id="2">
+       <range min="0.01" max="100000000">1e+6</range>
+       <full_scale min="99.8" max="1000000"/>
+      </range>
+     </possible_ranges>
+    </channel>
+    <channel id="2">
+     <offset min="-1000" max="1000">0</offset>
+     <sensitivity min="0.01" max="10000">-1</sensitivity>
+     <scaling_type>1</scaling_type>
+     <unit>8</unit>
+     <peak>0</peak>
+     <possible_ranges>
+      <range id="1">
+       <range min="0.01" max="100000000">1e+6</range>
+       <full_scale min="99.8" max="1000000"/>
+      </range>
+      <range id="2">
+       <range min="0.01" max="100000000">1e+6</range>
+       <full_scale min="99.8" max="1000000"/>
+      </range>
+     </possible_ranges>
+    </channel>
+    <channel id="3">
+     <offset min="-1000" max="1000">0</offset>
+     <sensitivity min="0.01" max="10000">-1</sensitivity>
+     <scaling_type>1</scaling_type>
+     <unit>8</unit>
+     <peak>0</peak>
+     <possible_ranges>
+      <range id="1">
+       <range min="0.01" max="100000000">1e+6</range>
+       <full_scale min="99.8" max="1000000"/>
+      </range>
+      <range id="2">
+       <range min="0.01" max="100000000">1e+6</range>
+       <full_scale min="99.8" max="1000000"/>
+      </range>
+     </possible_ranges>
+    </channel>
+   </possible_channels>
+  </device>
+  <device type="5073A4 (+/-10 V)">
+   <order>0</order>
+   <cutoff_frequency>200</cutoff_frequency>
+   <possible_channels>
+    <channel id="1">
+     <offset min="-1000" max="1000">0</offset>
+     <sensitivity min="0.01" max="10000">-1</sensitivity>
+     <scaling_type>1</scaling_type>
+     <unit>8</unit>
+     <peak>0</peak>
+     <possible_ranges>
+      <range id="1">
+       <range min="0.01" max="100000000">1e+6</range>
+       <full_scale min="99.8" max="1000000"/>
+      </range>
+      <range id="2">
+       <range min="0.01" max="100000000">1e+6</range>
+       <full_scale min="99.8" max="1000000"/>
+      </range>
+     </possible_ranges>
+    </channel>
+    <channel id="2">
+     <offset min="-1000" max="1000">0</offset>
+     <sensitivity min="0.01" max="10000">-1</sensitivity>
+     <scaling_type>1</scaling_type>
+     <unit>8</unit>
+     <peak>0</peak>
+     <possible_ranges>
+      <range id="1">
+       <range min="0.01" max="100000000">1e+6</range>
+       <full_scale min="99.8" max="1000000"/>
+      </range>
+      <range id="2">
+       <range min="0.01" max="100000000">1e+6</range>
+       <full_scale min="99.8" max="1000000"/>
+      </range>
+     </possible_ranges>
+    </channel>
+    <channel id="3">
+     <offset min="-1000" max="1000">0</offset>
+     <sensitivity min="0.01" max="10000">-1</sensitivity>
+     <scaling_type>1</scaling_type>
+     <unit>8</unit>
+     <peak>0</peak>
+     <possible_ranges>
+      <range id="1">
+       <range min="0.01" max="100000000">1e+6</range>
+       <full_scale min="99.8" max="1000000"/>
+      </range>
+      <range id="2">
+       <range min="0.01" max="100000000">1e+6</range>
+       <full_scale min="99.8" max="1000000"/>
+      </range>
+     </possible_ranges>
+    </channel>
+    <channel id="4">
+     <offset min="-1000" max="1000">0</offset>
+     <sensitivity min="0.01" max="10000">-1</sensitivity>
+     <scaling_type>1</scaling_type>
+     <unit>8</unit>
+     <peak>0</peak>
+     <possible_ranges>
+      <range id="1">
+       <range min="0.01" max="100000000">1e+6</range>
+       <full_scale min="99.8" max="1000000"/>
+      </range>
+      <range id="2">
+       <range min="0.01" max="100000000">1e+6</range>
+       <full_scale min="99.8" max="1000000"/>
+      </range>
+     </possible_ranges>
+    </channel>
+   </possible_channels>
+  </device>
+  <device type="5073A5 (+/-10 V)">
+   <order>0</order>
+   <cutoff_frequency>200</cutoff_frequency>
+   <possible_channels>
+    <channel id="1">
+     <offset min="-1000" max="1000">0</offset>
+     <sensitivity min="0.01" max="10000">-1</sensitivity>
+     <scaling_type>1</scaling_type>
+     <unit>8</unit>
+     <peak>0</peak>
+     <possible_ranges>
+      <range id="1">
+       <range min="0.01" max="100000000">1e+6</range>
+       <full_scale min="99.8" max="1000000"/>
+      </range>
+      <range id="2">
+       <range min="0.01" max="100000000">1e+6</range>
+       <full_scale min="99.8" max="1000000"/>
+      </range>
+     </possible_ranges>
+    </channel>
+   </possible_channels>
+  </device>
+  <device type="5073A1 (4-20 mA)">
+   <order>0</order>
+   <cutoff_frequency>200</cutoff_frequency>
+   <possible_channels>
+    <channel id="1">
+     <offset min="-1000" max="1000">0</offset>
+     <sensitivity min="0.01" max="10000">-1</sensitivity>
+     <scaling_type>1</scaling_type>
+     <unit>8</unit>
+     <peak>0</peak>
+     <possible_ranges>
+      <range id="1">
+       <range min="0.01" max="100000000">1e+6</range>
+       <full_scale min="99.8" max="1000000"/>
+      </range>
+      <range id="2">
+       <range min="0.01" max="100000000">1e+6</range>
+       <full_scale min="99.8" max="1000000"/>
+      </range>
+     </possible_ranges>
+    </channel>
+   </possible_channels>
+  </device>
+  <device type="5073A2 (4-20 mA)">
+   <order>0</order>
+   <cutoff_frequency>200</cutoff_frequency>
+   <possible_channels>
+    <channel id="1">
+     <offset min="-1000" max="1000">0</offset>
+     <sensitivity min="0.01" max="10000">-1</sensitivity>
+     <scaling_type>1</scaling_type>
+     <unit>8</unit>
+     <peak>0</peak>
+     <possible_ranges>
+      <range id="1">
+       <range min="0.01" max="100000000">1e+6</range>
+       <full_scale min="99.8" max="1000000"/>
+      </range>
+      <range id="2">
+       <range min="0.01" max="100000000">1e+6</range>
+       <full_scale min="99.8" max="1000000"/>
+      </range>
+     </possible_ranges>
+    </channel>
+    <channel id="2">
+     <offset min="-1000" max="1000">0</offset>
+     <sensitivity min="0.01" max="10000">-1</sensitivity>
+     <scaling_type>1</scaling_type>
+     <unit>8</unit>
+     <peak>0</peak>
+     <possible_ranges>
+      <range id="1">
+       <range min="0.01" max="100000000">1e+6</range>
+       <full_scale min="99.8" max="1000000"/>
+      </range>
+      <range id="2">
+       <range min="0.01" max="100000000">1e+6</range>
+       <full_scale min="99.8" max="1000000"/>
+      </range>
+     </possible_ranges>
+    </channel>
+   </possible_channels>
+  </device>
+  <device type="5073A1x5 (12+/-8 mA)">
+   <order>0</order>
+   <cutoff_frequency>200</cutoff_frequency>
+   <possible_channels>
+    <channel id="1">
+     <offset min="-1000" max="1000">0</offset>
+     <sensitivity min="0.01" max="10000">-1</sensitivity>
+     <scaling_type>1</scaling_type>
+     <unit>8</unit>
+     <peak>0</peak>
+     <possible_ranges>
+      <range id="1">
+       <range min="0.01" max="100000000">1e+6</range>
+       <full_scale min="99.8" max="1000000"/>
+      </range>
+      <range id="2">
+       <range min="0.01" max="100000000">1e+6</range>
+       <full_scale min="99.8" max="1000000"/>
+      </range>
+     </possible_ranges>
+    </channel>
+   </possible_channels>
+  </device>
+  <device type="5073A2x5 (12+/-8 mA)">
+   <order>0</order>
+   <cutoff_frequency>200</cutoff_frequency>
+   <possible_channels>
+    <channel id="1">
+     <offset min="-1000" max="1000">0</offset>
+     <sensitivity min="0.01" max="10000">-1</sensitivity>
+     <scaling_type>1</scaling_type>
+     <unit>8</unit>
+     <peak>0</peak>
+     <possible_ranges>
+      <range id="1">
+       <range min="0.01" max="100000000">1e+6</range>
+       <full_scale min="99.8" max="1000000"/>
+      </range>
+      <range id="2">
+       <range min="0.01" max="100000000">1e+6</range>
+       <full_scale min="99.8" max="1000000"/>
+      </range>
+     </possible_ranges>
+    </channel>
+    <channel id="2">
+     <offset min="-1000" max="1000">0</offset>
+     <sensitivity min="0.01" max="10000">-1</sensitivity>
+     <scaling_type>1</scaling_type>
+     <unit>8</unit>
+     <peak>0</peak>
+     <possible_ranges>
+      <range id="1">
+       <range min="0.01" max="100000000">1e+6</range>
+       <full_scale min="99.8" max="1000000"/>
+      </range>
+      <range id="2">
+       <range min="0.01" max="100000000">1e+6</range>
+       <full_scale min="99.8" max="1000000"/>
+      </range>
+     </possible_ranges>
+    </channel>
+   </possible_channels>
+  </device>
+  <device type="9238A">
+   <order>0</order>
+   <cutoff_frequency>200</cutoff_frequency>
+   <possible_channels>
+    <channel id="1">
+     <offset min="-9000" max="9000">0</offset>
+     <sensitivity min="0.01" max="10000">1</sensitivity>
+     <scaling_type>1</scaling_type>
+     <unit>1</unit>
+     <possible_ranges>
+      <range id="1">
+       <range min="19.9" max="800">500</range>
+       <full_scale min="1000" max="10000"/>
+      </range>
+      <range id="2">
+       <range min="19.9" max="800">50</range>
+       <full_scale min="1000" max="10000"/>
+      </range>
+     </possible_ranges>
+    </channel>
+   </possible_channels>
+  </device>
+  <device type="9238B">
+   <order>0</order>
+   <cutoff_frequency>200</cutoff_frequency>
+   <possible_channels>
+    <channel id="1">
+     <offset min="-9000" max="9000">0</offset>
+     <sensitivity min="0.01" max="10000">1</sensitivity>
+     <scaling_type>1</scaling_type>
+     <unit>1</unit>
+     <possible_ranges>
+      <range id="1">
+       <range min="19.9" max="800">500</range>
+       <full_scale min="1000" max="10000"/>
+      </range>
+      <range id="2">
+       <range min="19.9" max="800">50</range>
+       <full_scale min="1000" max="10000"/>
+      </range>
+     </possible_ranges>
+    </channel>
+   </possible_channels>
+  </device>
+  <device type="9337A">
+   <order>0</order>
+   <cutoff_frequency>200</cutoff_frequency>
+   <possible_channels>
+    <channel id="1">
+     <offset min="-9000" max="9000">0</offset>
+     <sensitivity min="0.01" max="10000">1</sensitivity>
+     <scaling_type>1</scaling_type>
+     <unit>14</unit>
+     <possible_ranges>
+      <range id="1">
+       <range min="2000" max="70000">50000</range>
+       <full_scale min="1000" max="10000"/>
+      </range>
+      <range id="2">
+       <range min="2000" max="70000">5000</range>
+       <full_scale min="1000" max="10000"/>
+      </range>
+     </possible_ranges>
+    </channel>
+   </possible_channels>
+  </device>
+  <device type="5031Q">
+   <order>0</order>
+   <cutoff_frequency>200</cutoff_frequency>
+   <possible_channels>
+    <channel id="1">
+     <offset min="-9000" max="9000">0</offset>
+     <sensitivity min="0.01" max="10000">1</sensitivity>
+     <scaling_type>1</scaling_type>
+     <unit>14</unit>
+     <possible_ranges>
+      <range id="1">
+       <range min="50" max="70000">50000</range>
+       <full_scale min="1000" max="10000"/>
+      </range>
+      <range id="2">
+       <range min="50" max="70000">5000</range>
+       <full_scale min="1000" max="10000"/>
+      </range>
+     </possible_ranges>
+    </channel>
+   </possible_channels>
+  </device>
+  <device type="5031B">
+   <order>0</order>
+   <cutoff_frequency>200</cutoff_frequency>
+   <possible_channels>
+    <channel id="1">
+     <offset min="-9000" max="9000">0</offset>
+     <sensitivity min="0.01" max="10000">1</sensitivity>
+     <scaling_type>1</scaling_type>
+     <unit>14</unit>
+     <possible_ranges>
+      <range id="1">
+       <range min="100" max="150000">50000</range>
+       <full_scale min="1000" max="10000"/>
+      </range>
+      <range id="2">
+       <range min="100" max="150000">5000</range>
+       <full_scale min="1000" max="10000"/>
+      </range>
+     </possible_ranges>
+    </channel>
+   </possible_channels>
+  </device>
+ </possible_devices>
+</system>
+
